@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lin.iotfinal.MainActivity"
+    android:background="#FFFFFF"
+    >
+
+    <Button
+        android:id="@+id/bt_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="還原"
+        android:textSize="30sp"
+        android:background="#FFFFFF"
+        android:textColor="#96c6ff"
+        />
+
+    <Button
+        android:id="@+id/bt_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bt_download"
+        android:layout_below="@+id/bt_download"
+        android:layout_marginTop="30dp"
+        android:text="關於"
+        android:textSize="30sp"
+        android:background="#FFFFFF"
+        android:textColor="#96c6ff"/>
+
+    <Button
+        android:id="@+id/bt_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt_download"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="備份"
+        android:textSize="30sp"
+        android:background="#FFFFFF"
+        android:textColor="#96c6ff"/>
+
+    <TextView
+        android:id="@+id/標題未定"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="聯絡簿"
+        android:textSize="50sp"
+        android:layout_above="@+id/bt_upload"
+        android:layout_centerHorizontal="true"
+        android:textColor="#96c6ff"
+        />
+</RelativeLayout>
